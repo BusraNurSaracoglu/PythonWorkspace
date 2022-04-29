@@ -13,10 +13,14 @@ if __name__ == '__main__':
 
     arr = list(map(int, input().rstrip().split()))
 
-c = []
+def Reverse():
+    
+    c = []
 
-for i in reversed (range(n)):  
-    c.append(arr[i])
+    for i in reversed (range(n)):  
+        c.append(arr[i])
 
-for i in range(n):
-    print(c[i], end =" ")
+    for i in range(n):
+        print(c[i], end =" ")
+    return c
+    
